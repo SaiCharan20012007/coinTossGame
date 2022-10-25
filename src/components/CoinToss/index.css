@@ -1,0 +1,119 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .bgContainer {
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 20px;
+    width: 450px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+  }
+  .title {
+    font-family: Roboto;
+    color: #a35200;
+    text-align: center;
+    font-size: 40px;
+  }
+  .des {
+    color: #334155;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  img {
+    height: 250px;
+  }
+  .btn {
+    padding: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    border-width: 0px;
+    background-color: #f9d423;
+    color: #a35200;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  li {
+    list-style-type: none;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  .unorderedList {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+/* Write your CSS here */
+@media screen and (max-width: 767px) {
+  .bgContainer {
+    background-image: linear-gradient(to right, #f9d423, #e2a139);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .card {
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 7px;
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .title {
+    font-family: Roboto;
+    color: #a35200;
+    text-align: center;
+    font-size: 30px;
+  }
+  .des {
+    color: #334155;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  img {
+    height: 150px;
+  }
+  .btn {
+    padding: 10px;
+    font-family: Roboto;
+    font-weight: bold;
+    border-width: 0px;
+    background-color: #f9d423;
+    color: #a35200;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  li {
+    list-style-type: none;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+  .unorderedList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0px;
+  }
+}
